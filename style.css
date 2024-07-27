@@ -1,0 +1,16 @@
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 800px;
+    max-height: 90vh;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    box-sizing: border-box;
+    border: 1px solid black;
+    aspect-ratio: 1/1;
+}
